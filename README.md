@@ -53,4 +53,9 @@ Android (run on Device)
 ```
 grunt run:android
 ```
+### Known Bugs
+- 1. Redvenue is using DSCacheFactory to store data locally until the force refresh.  Force refresh is not implemented yet.  Therefore, the initial start of the app will GET the data and will be stored in localstorage. 
+- 2. On Web Client, the datetime is correct however, on the device the datetime is incorrect. 
+- 3. In general, the API being used will only pull the 10 most latest events. (This maybe related to issue #1)
+
 
