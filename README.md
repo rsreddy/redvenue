@@ -27,29 +27,29 @@ $ bower install
 ```
 
 ### Run app on localhost 
--Disable Chrome security for CORS 
--http://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome
+- Disable Chrome security for CORS 
+	- http://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome
+
 **grunt serve --force** 
 - start livereload and watch for changes in files. Automatically injects deps into index.html and opens your default browsers
 
 ```
-grunt serve --force
+$ grunt serve --force
 ```
 
 ### Unit Testing
 No Unit Tests available at this moment
 
 ###Getting the App on the Device
--Ionic guide 
-	-http://ionicframework.com/docs/guide/installation.html
+Ionic guide 
+	- http://ionicframework.com/docs/guide/installation.html
 
 Android (add Platform)
 ```
 $ grunt platform:add:android
 ```
 Android (run on Device)
-
-	-Plug in your device
+- Plug in your device
 ```
 grunt run:android
 ```
