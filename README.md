@@ -1,7 +1,7 @@
 # Redvenue
 
 ## Description
-Yeomnan and Ionic Starter Project 
+Yeoman and Ionic Starter Project 
 
 ## Dependencies
 - `node >= 0.10.0` & `npm >= 1.4.3`
@@ -19,7 +19,12 @@ Clone the repo, run 'bower install', 'npm install', 'grunt wiredep', start codin
 
 ## Installing the App
 Clone the GitHub repo
-Run 'npm install'
+```
+$ npm install
+```
+```
+$ bower install
+```
 
 ### Run app on localhost 
 -Disable Chrome security for CORS 
@@ -34,15 +39,17 @@ grunt serve --force
 ### Unit Testing
 No Unit Tests available at this moment
 
-##Getting the App on the Device
+###Getting the App on the Device
 -Ionic guide 
--http://ionicframework.com/docs/guide/installation.html
+	-http://ionicframework.com/docs/guide/installation.html
+
 Android (add Platform)
 ```
 $ grunt platform:add:android
 ```
 Android (run on Device)
--Plug in your device
+
+	-Plug in your device
 ```
 grunt run:android
 ```
