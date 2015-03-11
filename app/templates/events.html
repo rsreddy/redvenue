@@ -1,0 +1,15 @@
+<ion-view view-title="Events">
+  <ion-content>
+	<button class="button button-full button-positive" ng-click="predicate = 'datetime_local'; reverse=!reverse">
+	  Sort
+	</button>
+    <ion-list>
+      <ion-item ng-repeat="event in events | orderBy:predicate:reverse" href="#/app/events/{{event.id}}">
+        {{event.title}} 
+        <div class="margin-right5">
+          {{event.datetime_local | date:'medium'}}
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

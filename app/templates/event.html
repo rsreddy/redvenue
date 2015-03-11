@@ -1,0 +1,14 @@
+<ion-view view-title="{{eventDetails.short_title}}">
+  <ion-content>
+	<div class="card">
+	  <div class="item item-text-wrap">
+	    <h2>{{eventDetails.title}}</h2>
+	    <h3>Time: {{eventDetails.datetime_local | date:'medium'}} </h3>
+	    <h3>Venue: {{eventDetails.venue.name}}</h3>
+	    <h3>{{eventDetails.venue.address}}</h3>
+	    <h3>{{eventDetails.venue.extended_address}}</h3>
+	  </div>
+	  <a class="button button-small button-full icon-right button-calm" href="{{eventDetails.url}}">Learn More</a>
+	</div>
+  </ion-content>
+</ion-view>
