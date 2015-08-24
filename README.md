@@ -1,7 +1,7 @@
 # Redvenue
 
 ## Description
-Yeoman and Ionic Starter Project 
+HelloYeoman and Ionic Starter Project 
 
 ## Dependencies
 - `node >= 0.10.0` & `npm >= 1.4.3`
